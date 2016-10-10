@@ -8,6 +8,7 @@ namespace ForeachLoops
 {
     public static class WordCountClass
     {
+        //Create a methods that extends (adds to) the string class
         public static int CountWords(this string originalString)
         {
             int count = 0;
@@ -23,6 +24,7 @@ namespace ForeachLoops
         }
     }
 
+    //Create a regular method
     public class DoesSomething
     {
         public bool IsSomethingCool()
@@ -31,6 +33,7 @@ namespace ForeachLoops
         }
     }
 
+    //Create another regular method 
     public static class DoesSomethingElse
     {
         public static bool IsSomethingCool()
